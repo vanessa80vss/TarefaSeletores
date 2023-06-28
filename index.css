@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size:60px;
+}
+section{
+    margin-left: 20px;
+
+}
+#borda{
+    border: 1px solid black;
+}
+div{
+
+
+    margin: 1px ;
+    width: 200px;
+    height: 200px;
+}
+.blocos
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(5, 1fr);  
+    grid-gap: 0px;
+    width: 200px;
+    height: 200px;
+}
+.blocos div{
+    background-color: red;
+
+}
+#blockB {
+   background-color: rgb(49, 238, 245);
+}
+#blockG{
+    background-color: rgb(39, 248, 32);
+
+}
+#blockY{
+    background-color: rgb(248, 232, 5);
+}
